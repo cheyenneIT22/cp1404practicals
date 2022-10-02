@@ -43,3 +43,4 @@ print(f"the {year} was when my {name} was created and costs for about {cost}")
 for i, number in enumerate(numbers, 1):
     print(f"Number {i} is {number:>6}")
 
+
