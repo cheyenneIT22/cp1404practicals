@@ -10,3 +10,4 @@ print(random.randrange(3, 10, 2))
 # Line 3.
 print(random.uniform(2.5, 5.5))
 # Answer is 4.223534255338469
+print(random.randrange(1, 50, 100))
