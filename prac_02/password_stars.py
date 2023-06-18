@@ -16,8 +16,6 @@ def main():
     print_asterisks(password)
 
 
-
-
 def get_password(MINIMUM_LENGTH):
     """determines the length of password based of number of characters"""
     password = input(f"Enter password of at least {MINIMUM_LENGTH} characters: ")
@@ -30,3 +28,6 @@ def get_password(MINIMUM_LENGTH):
 def print_asterisks(sequence):
     """prints the password as asterisks sequence"""
     print('*' * len(sequence))
+
+
+main()
