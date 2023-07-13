@@ -1,7 +1,7 @@
 """CP1404/CP5632 Practical - Car class example."""
-    
 
-class car:
+
+class Car:
     """Represent a Car object."""
 
     def __init__(self, fuel=42, limo=car):
@@ -12,7 +12,6 @@ class car:
         self.car = limo
         self.fuel = fuel
         self.odometer = 277
-
 
     def add_fuel(self, amount):
         """Add amount to the car's fuel."""
@@ -34,5 +33,3 @@ class car:
 
     def __str__(self):
         return f"{self.fuel}, {self.car}, {self.odometer}"
-
-
