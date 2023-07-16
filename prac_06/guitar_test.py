@@ -5,6 +5,7 @@ CURRENT_YEAR = 2017
 
 
 def run_tests():
+    """Main testing client code for the guitar program."""
     name = "Gibson L-5 CES"
     year = 1922
     cost = 16035.40
