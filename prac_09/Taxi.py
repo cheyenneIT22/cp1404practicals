@@ -2,10 +2,10 @@
 CP1404/CP5632 Practical
 Car class for taxi testing
 """
-from prac_09.car import car
+from prac_09.car import Car
 
 
-class Taxi(car):
+class Taxi(Car):
     """Specialised version of a Car that includes fare costs."""
 
     def __init__(self, name, fuel):
