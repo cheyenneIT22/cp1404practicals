@@ -8,7 +8,7 @@ If the price rises above $1000, or falls below $0.01, the program should end.
 The price should be displayed to the nearest cent (e.g. $33.59, not $33.5918232901)
 """
 import random
-
+OUTPUT_FILE = "capitalist.txt"
 MAX_INCREASE = 0.1  # 10%
 MAX_DECREASE = 0.05  # 5%
 MIN_PRICE = 0.01
@@ -16,7 +16,11 @@ MAX_PRICE = 1000.0
 INITIAL_PRICE = 10.0
 
 price = INITIAL_PRICE
-print(f"${price:,.2f}")
+number_of_days = int(input("Day:  "))
+print("${:,.2f}".format(price))
+out_file = open(OUTPUT_FILE, 'w')
+print(f"${price:,.2f}", file=out_file)
+out_file.close()
 
 while MIN_PRICE <= price <= MAX_PRICE:
     price_change = 0
