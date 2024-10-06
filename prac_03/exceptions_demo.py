@@ -17,6 +17,6 @@ except ZeroDivisionError:
     print("Cannot divide by zero!")
 print("Finished.")
 
-# 1. the ValueError occurs when the user types in a value that is not valid or a value that could break the code.
-# 2. an ZeroDivisionError occurs when the Value the user enters is not divisible by 0 and breaks the code.
-# 3. I could change the code by to prevent an ZeroDivisionError error by adding specific values the user can enter.
+# 1. When the user inputs a value that is a Non-integer into the numerator or denominator.
+# 2. When a user enters a zero in the denominator.
+# 3. yes, by adding a while statement and a decision structure.
