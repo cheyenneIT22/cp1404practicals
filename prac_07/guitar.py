@@ -15,10 +15,6 @@ class Guitar:
     def __str__(self):
         return "{} ({}) : ${:,.2f}".format(self.name, self.year, self.cost)
 
-    def read_guitars(self):
-        guitars = []
-        print(f"{guitars}")
-
     def get_age(self):
         return CURRENT_YEAR - self.year
 
