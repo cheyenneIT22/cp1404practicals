@@ -1,6 +1,6 @@
 """
-CP1404,Prac_06,
-Use ProgrammingLanguage class to make a list of programming languages.
+CP1404,Prac_07,
+Use of languages program from practical 06.
 """
 from prac_06.programming_language import ProgrammingLanguage
 
