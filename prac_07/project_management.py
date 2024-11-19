@@ -6,7 +6,7 @@ from datetime import datetime
 
 from prac_07.project import Project
 
-
+      
 def main():
     projects = load_projects()
     menu = """

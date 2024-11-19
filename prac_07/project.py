@@ -3,6 +3,7 @@ from datetime import datetime
 
 
 class Project:
+
     def __init__(self, name, start_date, priority, completion):
         self.name = name
         self.start_date = datetime.strptime(start_date, '%Y-%m-%d')
