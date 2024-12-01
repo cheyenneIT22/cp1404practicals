@@ -60,8 +60,6 @@ def run_tests():
     # Test fuel initialization with a specific value
     specific_car = Car(fuel=10)
     assert specific_car.fuel == 10, "Car does not set specific fuel correctly"
-
-
 # starting with a capital and ending with a single full stop.
 # Important: start with a function header and just use pass as the body
 # then add doctests for 3 tests:
