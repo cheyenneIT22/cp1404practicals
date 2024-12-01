@@ -10,7 +10,7 @@ class Car:
         fuel: float, one unit of fuel drives one kilometre
         """
         self.fuel = fuel
-        self._odometer = 277
+        self.odometer = 277
         self.name = name
 
     def add_fuel(self, amount):
@@ -28,12 +28,12 @@ class Car:
             self.fuel = 0
         else:
             self.fuel -= distance
-        self._odometer += distance
+        self.odometer += distance
         return distance
 
     def __str__(self):
-        return f"{self.name}, fuel={self.fuel}, odometer={self._odometer}"
+        return f"{self.name}, fuel={self.fuel}, odometer={self.odometer}"
 
     @property
     def odometer(self):
-        return self._odometer
+        return self.odometer
